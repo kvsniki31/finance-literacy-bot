@@ -119,11 +119,6 @@ git remote add origin https://github.com/<your-username>/finance-literacy-bot.gi
 git push -u origin main
 ```
 
-**Repo description (suggested):**
-> A RAG chatbot for first‑time earners, grounded in OpenStax _Principles of Finance_. Answers budgeting, saving, and debt questions with citeable context.
-
-**License:** MIT (included).
-
 ---
 
 ## 🧼 Notes
