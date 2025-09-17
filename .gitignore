@@ -1,0 +1,29 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# OS / IDE
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local data & indexes
+index/*
+!index/.gitkeep
+data/*
+!data/README.txt
+
+# Credentials
+.env
+.env.*

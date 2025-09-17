@@ -1,0 +1,2 @@
+Finance Buddy — Problem Statement
+A citeable, classroom-friendly chatbot that helps first-time earners turn their first paychecks into a simple, sustainable plan. The bot answers budgeting, saving, and debt questions using Retrieval-Augmented Generation grounded in OpenStax _Principles of Finance_. It delivers practical steps (like 50/30/20 and emergency-fund setup) with transparent page citations, so users learn the “why,” not just the “what.”
