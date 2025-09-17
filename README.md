@@ -126,11 +126,6 @@ git push -u origin main
 
 ---
 
-## 📣 “Discord announcement” (one-liner)
-> Finance Buddy (RAG): a citeable budgeting coach for first-time earners, grounded in OpenStax _Principles of Finance_. Public repo: https://github.com/<your-username>/finance-literacy-bot
-
----
-
 ## 🧼 Notes
 - This project intentionally avoids heavy databases to stay classroom‑friendly.
 - For larger corpora or multi‑PDF ingestion, consider adding a vector DB (e.g., Chroma/PGVector) and a sitemap/URL loader.
