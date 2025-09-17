@@ -14,7 +14,7 @@ A Retrieval‑Augmented Generation (RAG) chatbot that helps **first‑time earne
 
 ---
 
-## 🧰 Tools & Frameworks (minimal + justified)
+## 🧰 Tools & Frameworks
 - **Python 3.10+**
 - **OpenAI Python SDK (v1.x)** — fast, reliable embeddings (`text-embedding-3-small`) and chat models (e.g., `gpt-4.1-mini`).
 - **pypdf** — simple, dependency‑light PDF text extraction.
