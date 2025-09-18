@@ -129,15 +129,6 @@ def interactive_loop(client: "OpenAI", doc_vecs: np.ndarray, metas: list):
             continue
         qvec = embed(client, q)
         top_idx = cosine_top_k(qvec, doc_vecs, TOP_K)
-        # For demonstration, we do not reload the raw chunk text (to keep index small).
-        # We reconstruct context by re-reading PDF on-demand would be expensive.
-        # Instead, we store minimal text in index. To keep this self-contained,
-        # we'll load the PDF and reconstruct passages now.
-        # --- Simpler approach: store text inline in metas during ingestion.
-        # Update: We'll store text into a parallel npz? To keep index light, we add a small load here.
-        # But ingestion stored only metadata. We'll instead re-extract from PDF pages and slice.
-        # To avoid that complexity, in ingest we stored full chunk text as passages in vectors? No.
-        # So we adjust: during ingestion, we'll include 'text' in metadata. Done.
         passages = []
         sel_metas = []
         for i in top_idx:
